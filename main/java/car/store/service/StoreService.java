@@ -110,8 +110,8 @@ public class StoreService {
 		contributor.getCarStore().add(carStore);
 		
 		for(Amenity amenity : amenities) {
-			amenity.getCarStore().add(carStore);
-			carStore.getAmenties().add(amenity);
+			amenity.getCarStores().add(carStore);
+			carStore.getAmenities().add(amenity);
 		}
 		
 		CarStore dbCarStore = carStoreDao.save(carStore);

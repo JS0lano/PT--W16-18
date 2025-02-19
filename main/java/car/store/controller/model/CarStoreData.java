@@ -32,7 +32,7 @@ public class CarStoreData {
 		geoLocation = carStore.getGeoLocation();
 		contributor = new CarStoreContributor(carStore.getContributor());
 		
-		for(Amenity amenity : carStore.getAmenties()) {
+		for(Amenity amenity : carStore.getAmenities()) {
 			amenities.add(amenity.getAmenity());
 		}
 	}

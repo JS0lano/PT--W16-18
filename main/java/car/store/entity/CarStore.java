@@ -44,5 +44,5 @@ public class CarStore {
 	@JoinTable(name = "car_store_amenity",
 	joinColumns = @JoinColumn(name = "car_store_id"),
 	inverseJoinColumns = @JoinColumn(name = "amenity_id"))
-	private Set<Amenity> amenties = new HashSet<Amenity>();
+	private Set<Amenity> amenities = new HashSet<>();
 }

@@ -23,5 +23,5 @@ public class Amenity {
  @EqualsAndHashCode.Exclude
  @ToString.Exclude
  @ManyToMany(mappedBy = "amenities")
- private Set<CarStore> carStore = new HashSet<>();
+ private Set<CarStore> carStores = new HashSet<>();
 }

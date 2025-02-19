@@ -48,7 +48,7 @@ public class ContributorData {
 			country = carStore.getCountry();
 			geoLocation = new GeoLocation(carStore.getGeoLocation());
 
-			for (Amenity amenity : carStore.getAmenties()) {
+			for (Amenity amenity : carStore.getAmenities()) {
 				amenities.add(amenity.getAmenity());
 			}
 		}

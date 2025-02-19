@@ -27,6 +27,6 @@ public class Contributor {
 	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
-	@OneToMany(mappedBy = "Contributor" , cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "contributor" , cascade = CascadeType.ALL)
 	private Set<CarStore> carStore = new HashSet<>();
 }
