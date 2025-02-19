@@ -1,0 +1,15 @@
+{
+	"CarName": "Honda Civc",
+	"directions": "Take Amherst street",
+	"stateOrProvince": "ID",
+	"country":	"USA",
+	"geoLocation": {
+		
+		"latitude": "42.791645750244406",
+		"longitude": "-71.52158312268317"
+		},
+		"amenities": [
+		"car comfort", "car luxury", "car style", "car milage"
+		]
+}
+		

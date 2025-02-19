@@ -1,15 +1,14 @@
 spring:
-  datasourcee:
-	username: car_store
-	password: car_store
-	url: jdbc:mysql://localhost:3306//car_store
-		
+  datasource:
+    username: car_store
+    password: car_store
+    url: jdbc:mysql://localhost:3306/car_store
   jpa:
-	hibernate:
-	  ddl-auto: update
-	show-sql: true
-	defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
  
   sql:
-	init:
-	  mode: never
+    init:
+      mode: never
